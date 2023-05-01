@@ -56,6 +56,12 @@
                 "${workspaceFolder}/**/*.js"
             ],
             "console": "integratedTerminal"
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach",
+            "port": 9229,
         }
     ]
 }
